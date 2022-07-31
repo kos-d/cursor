@@ -1,6 +1,8 @@
-spirit-java-nb-settings/
 
 database.properties
+
+# Ignore Gradle project-specific cache directory
+.gradle
 
 /nbproject
 dist/
@@ -9,13 +11,13 @@ target/
 out/
 
 .idea/
+
 .git/
 
 *.mf
 
 .DS_Store
 *.iml
-
 
 # Compiled class file
 *.class
