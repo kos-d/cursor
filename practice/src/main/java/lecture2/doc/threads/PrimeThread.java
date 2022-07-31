@@ -1,4 +1,4 @@
-package com.cursor.practice.doc.threads;
+package lecture2.doc.threads;
 
 public class PrimeThread extends Thread{
 

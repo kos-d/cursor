@@ -1,4 +1,4 @@
-package com.cursor.practice;
+package lecture2;
 
 //import java.util.concurrent.R
 import java.lang.Readable;

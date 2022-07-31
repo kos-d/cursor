@@ -1,4 +1,4 @@
-package com.cursor.practice.collections;
+package lecture2.collections;
 
 import java.util.Collections;
 import java.util.HashMap;

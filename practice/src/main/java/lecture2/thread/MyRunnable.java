@@ -1,8 +1,7 @@
-package com.cursor.practice.thread;
+package lecture2.thread;
 
-import com.cursor.practice.SharedArray;
-import java.util.ArrayList;
 import java.util.concurrent.CopyOnWriteArrayList;
+import lecture2.SharedArray;
 
 public class MyRunnable implements Runnable {
     @Override

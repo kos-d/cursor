@@ -1,7 +1,7 @@
-package com.cursor.practice;
+package lecture2;
 
-import com.cursor.practice.thread.MyRunnable;
-import com.cursor.practice.thread.MyThread;
+import lecture2.thread.MyRunnable;
+import lecture2.thread.MyThread;
 
 public class Main {
     public static void main(String[] args) {
