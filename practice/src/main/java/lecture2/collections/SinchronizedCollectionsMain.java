@@ -9,11 +9,11 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class SinchronizedCollectionsMain {
     public static void main(String[] args) {
         
-        Hashtable<String, String> hashTable = new Hashtable<>();
+//        Hashtable<String, String> hashTable = new Hashtable<>();
         
-        HashMap map = (HashMap) Collections.synchronizedMap(new HashMap<>());
+//        HashMap map = (HashMap) Collections.synchronizedMap(new HashMap<>());
         
-        ConcurrentHashMap<String, String> concurrentHashMap = new ConcurrentHashMap<>();
-        CopyOnWriteArrayList<String> copyOnWriteArrayList = new CopyOnWriteArrayList<>();
+//        ConcurrentHashMap<String, String> concurrentHashMap = new ConcurrentHashMap<>();
+//        CopyOnWriteArrayList<String> copyOnWriteArrayList = new CopyOnWriteArrayList<>();
     }
 }

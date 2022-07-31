@@ -5,7 +5,7 @@ public class PrimeRun implements Runnable {
     PrimeRun(long minPrime) {
         this.minPrime = minPrime;
     }
-    @Override
+
     public void run() {
         System.out.println("Thread from PrimeRun");
     }
