@@ -1,7 +1,6 @@
 package lecture2.thread;
 
 import java.util.concurrent.CopyOnWriteArrayList;
-import lecture2.SharedArray;
 
 public class MyRunnable implements Runnable {
     @Override
@@ -12,9 +11,7 @@ public class MyRunnable implements Runnable {
         System.out.println("My Thread");
         
 //        ArrayList arrayList = new SharedArray().arrayList;
-        CopyOnWriteArrayList<String> arrayList = SharedArray.arrayList;
-        
-        
+        CopyOnWriteArrayList<String> arrayList = SharedArray.arrayList;   
         
         arrayList.add("Inc: " + ++increment);
     }

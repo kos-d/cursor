@@ -1,5 +1,6 @@
 package lecture2;
 
+import lecture2.thread.SharedArray;
 import lecture2.thread.MyRunnable;
 import lecture2.thread.MyThread;
 
@@ -14,6 +15,10 @@ public class Main {
         myThread.run();
         
         System.out.println(new SharedArray().arrayList.get(0));
+        
+        HelloRunnable helloRunnable = new HelloRunnable();
+        
+        helloRunnable.run();
         
     }
 }

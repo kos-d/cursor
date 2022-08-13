@@ -1,7 +1,6 @@
 package lecture2.thread;
 
 import java.util.concurrent.CopyOnWriteArrayList;
-import lecture2.SharedArray;
 
 public class MyThread extends Thread {
     @Override

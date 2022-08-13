@@ -1,4 +1,4 @@
-package lecture2;
+package lecture2.thread;
 
 import java.util.ArrayList;
 import java.util.concurrent.CopyOnWriteArrayList;
